@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.default-p{
+    color:#98aaa3;
+}
+.nav-section{
+    background-color: #3b5d50;
+    height: 580px;
+
+}
+.nav-bar{
+    background: #3b5d50;
+
+}
+.navbar-nav a{
+    color: white;
+
+}
+
+/* ---------------top---------- */
+
+.text-section-btn{
+    border-radius: 35px;
+}
+.shopnow{
+    background-color: #f9bf29;
+    border: 1px solid #f9bf29 ;
+}
+
+.nav-li{
+    color: #98aaa3;
+    font-weight:600;
+}
+.img-section{
+    position: absolute;
+    right: 0px;
+    width: 780px;
+}
+.explore{
+    background: transparent;
+    color: white;
+    border: 2px solid #98aaa3;
+}
+.explore:hover{
+    border-color: white ;
+}
+
+
+.dot-style li{
+    background-color: #58756a;
+    width: 7px;
+    height: 7px;
+    list-style: none;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.dot-container{
+    margin-top: 30px;
+}
+
+/* ------------------------------- */
+

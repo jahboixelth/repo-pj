@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.default-p{
+    color:#98aaa3;
+}
+.nav-section{
+    background-color: #3b5d50;
+    height: 580px;
+
+}
+.nav-bar{
+    background: #3b5d50;
+
+}
+.navbar-nav a{
+    color: white;
+
+}
+
+.text-section-btn{
+    border-radius: 35px;
+}
+.shopnow{
+    background-color: #f9bf29;
+    border: 1px solid #f9bf29 ;
+}
+
+.nav-li{
+    color: #98aaa3;
+    font-weight:600;
+}
+.img-section{
+    position: absolute;
+    right: 0px;
+    width: 780px;
+}
+.explore{
+    background: transparent;
+    color: white;
+    border: 2px solid #98aaa3;
+}
+.explore:hover{
+    border-color: white ;
+}
+.dot-green{
+    width: 260px;
+}
+.card-img-top{
+    border-radius: 15px;
+}
+.carousel{
+    background-color: #e2e0e0;
+    padding: 50px 0;
+    position: relative;
+    margin: 120px 0;
+    height: 80%;
+}
+.carousel h2{
+    text-align: center;
+}
+.img-area{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #eeebeb;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-area img{
+    width: 100%;
+}
+.caption{
+    position: static;
+}
+.caption h5{
+    text-align: center;
+    padding-top: 100px;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    margin:30px;
+}
+.card-hover{
+    transition: 0.5s;
+}
+.card-hover:hover{
+    opacity: 0.7;
+
+}

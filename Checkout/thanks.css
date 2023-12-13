@@ -1,0 +1,35 @@
+.circle-1{
+    width: 70px;
+    height: 70px;
+    background-color: #cbd5d1;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+    border-radius: 50%;
+
+}
+.relative{
+    position: relative;
+}
+.icon-1{
+    position: relative;
+    z-index: 1;
+}
+.icon-2{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 0px;
+    left: 138px;
+}
+.bts-tbn{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #222;
+}
+.bts-tbn:hover{
+    background-color: #353535;
+
+}

@@ -1,0 +1,88 @@
+.default-p{
+    color:#98aaa3;
+}
+.active-a{
+    border-bottom: 5px solid #f9bf29;
+    padding-bottom: 4px;
+
+}
+
+.text-section-btn{
+    border-radius: 35px;
+}
+.shopnow{
+    background-color: #f9bf29;
+    border: 1px solid #f9bf29 ;
+}
+
+.nav-li{
+    color: #98aaa3;
+    font-weight:600;
+}
+
+.img-section{
+    position: absolute;
+    right: 0px;
+    width: 780px;
+    z-index: 1;
+
+}
+.explore{
+    background: transparent;
+    color: white;
+    border: 2px solid #98aaa3;
+}
+.explore:hover{
+    border-color: white ;
+}
+.dots-green{
+    width: 260px;
+}
+
+
+/* ------------------------------- */
+.under-top{
+    padding-top: 120px;
+    background-color: #eff2f1;
+}
+@media only screen and (max-width: 700px){
+    .img-section{
+        position: relative;
+        width: 600px;   
+        top: -70px;
+    }
+    .dots-green{
+        position: absolute;
+    }
+    .nav-link{
+        padding: 0px;
+        
+    }
+
+}
+@media screen and (max-width: 1000px) and (min-width: 700px){
+    .img-section{
+        width: 600px;   
+        position: relative;
+        top: -70px;
+    }
+    .dots-green{
+        position: absolute;
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 1000px){
+    .img-section{ 
+        width: 650px;
+    }
+}
+@media screen and (min-width: 1100px){
+    .img-section{ 
+        right: 0px;
+    }
+    .dots-green{
+        position: relative;
+        right: -100px;
+        top: 10px;
+    }
+
+}

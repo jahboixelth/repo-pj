@@ -1,0 +1,28 @@
+.product{
+    padding-top: 60px;
+
+}
+.price{
+    padding-top: 60px;
+    font-size: 15px;
+}
+.minus{
+    padding: 5px;
+    cursor: pointer;
+}
+.plus{
+    padding: 5px;
+    cursor: pointer;
+}
+.btn{
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    background-color: #2c2c2c;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: #222;
+    color: white;
+}

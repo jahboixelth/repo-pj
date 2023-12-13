@@ -1,0 +1,52 @@
+.right-side-container{
+    padding-left: 100px ;
+}
+
+.why-choose-us-img-container{
+    position: relative;
+}
+
+.green-dots{
+    position: absolute;
+    top: -85px;
+    left: -100px;
+
+}
+.img-next-to-dots{
+    position: relative;
+    width: 450px;
+    border-radius:19px;
+    z-index: 1;
+}
+.icon-container{
+    position: relative;
+    width: 260px;
+}
+.icon-with-circle{
+    position: relative;
+    z-index: 2;
+}
+.icon-container-circle{
+    position: absolute;
+    background-color: #cbd5d1;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    top: 35px;
+    left: 20px;
+}
+@media only screen and (max-width: 991px){
+    .right-side-container{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 991px){
+    .right-side-container{
+        margin-top: 150px ;
+    }
+}
+@media screen and (max-width: 1134px) and (min-width: 992px){
+    .img-next-to-dots{
+        width: 375px;
+    }
+}
