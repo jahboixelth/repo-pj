@@ -4,7 +4,7 @@ body{
 .service-section,
 .product-section,
 .testomonial-section{
-    padding: 10% 5% 5% 5%;
+    padding: 10% 0% 5% 5%;
 }
 .feature .icon:before{
     content: " ";
